@@ -1,0 +1,46 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+#quote-box{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  margin: 2em;
+  margin-top: 18em;
+  padding: 2em;
+  background-color: rgba(15, 252, 141, 0.87);
+  border: 0.08em solid black;
+  border-radius: 1em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.2s all;
+}
+#author{
+  align-self: flex-end;
+  font-size: 0.8em;
+}
+#builder{
+  margin-top: 1em;
+  font-size: 0.8em;
+}
+button{
+  padding: 0.5em;
+  border-radius: 1em;
+  border: 0.08em solid black;
+  align-self: flex-end;
+  cursor: pointer;
+  margin: 1em;
+
+}
+a{
+  padding: 0.5em;
+  border-radius: 1em;
+  border: 0.08em solid black;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(10, 119, 192);
+
+}
